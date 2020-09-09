@@ -7,8 +7,16 @@ require_relative 'converters/impl/fahrenheit_converter_impl'
 module Tempter
   # Converter Builder temperature
   class ConverterBuilder
+    private
 
+    # @return [String]
+    attr_accessor :type, :to_type
+
+    public
+
+    # @return [Float]
     attr_reader :temperature
+
 
     # @param [Float] temperature
     # @return [Tempter::Converter::ConverterBuilder]

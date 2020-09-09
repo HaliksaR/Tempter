@@ -11,14 +11,14 @@ class PatternTest < Minitest::Test
         '-1234C=>k',
         '1234C =>     K'
     ].each do |item|
-      assert item.match?(::Tempter::PATTERN_REGEX_INPUT)
+      assert item.match?(::Tempter::App::PATTERN_REGEX_INPUT)
     end
     [
         '+12.34F => A',
         '+12.34F  A',
         '+12F4F  A'
     ].each do |item|
-      assert !item.match?(::Tempter::PATTERN_REGEX_INPUT)
+      assert !item.match?(::Tempter::App::PATTERN_REGEX_INPUT)
     end
   end
 
@@ -28,7 +28,7 @@ class PatternTest < Minitest::Test
         '+12.34F  A',
         '+12F4F  A'
     ].each do |item|
-      assert item.match?(::Tempter::PATTERN_REGEX_TEMPERATURE)
+      assert item.match?(::Tempter::App::PATTERN_REGEX_TEMPERATURE)
     end
   end
 
@@ -38,7 +38,7 @@ class PatternTest < Minitest::Test
         '+12.34c',
         '+12F4a'
     ].each do |item|
-      assert item.match?(::Tempter::PATTERN_REGEX_TYPE)
+      assert item.match?(::Tempter::App::PATTERN_REGEX_TYPE)
     end
   end
 
@@ -48,7 +48,7 @@ class PatternTest < Minitest::Test
         '+12.34c H',
         '+12F4a R'
     ].each do |item|
-      assert !item.match?(::Tempter::PATTERN_REGEX_TO_TYPE)
+      assert !item.match?(::Tempter::App::PATTERN_REGEX_TO_TYPE)
     end
   end
 end
