@@ -12,7 +12,6 @@ Gem::Specification.new do |spec|
   spec.description   = 'Write a longer description or delete this line.'
   spec.homepage      = 'https://github.com/HaliksaR/Tempter'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
