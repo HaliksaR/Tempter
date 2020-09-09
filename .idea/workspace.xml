@@ -10,34 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab8e9ef4-b8ee-4c45-a930-c7f6df9e5926" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tempter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tempter.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tempter/converter_builder.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tempter/converters/converter.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tempter/converters/impl/celsius_converter_impl.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tempter/converters/impl/fahrenheit_converter_impl.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tempter/converters/impl/kelvin_converter_impl.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tempter/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tempter.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/converter_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pattern_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tempter_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
-    </list>
+    <list default="true" id="ab8e9ef4-b8ee-4c45-a930-c7f6df9e5926" name="Default Changelist" comment="Init Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,8 +216,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599659576585</updated>
-      <workItem from="1599659577775" duration="8618000" />
+      <workItem from="1599659577775" duration="8927000" />
     </task>
+    <task id="LOCAL-00001" summary="Init Commit">
+      <created>1599668450202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599668450202</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,23 +242,31 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init Commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="265" key="GridCell.Tab.0.bottom" timestamp="1599668193833">
+    <state x="722" y="351" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599668415283">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="265" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1599668193833" />
-    <state width="1874" height="265" key="GridCell.Tab.0.center" timestamp="1599668193833">
+    <state x="722" y="351" key="#com.intellij.fileTypes.FileTypeChooser/0.36.1920.1044@0.36.1920.1044" timestamp="1599668415283" />
+    <state width="1874" height="265" key="GridCell.Tab.0.bottom" timestamp="1599668410158">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="265" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1599668193833" />
-    <state width="1874" height="265" key="GridCell.Tab.0.left" timestamp="1599668193833">
+    <state width="1874" height="265" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1599668410158" />
+    <state width="1874" height="265" key="GridCell.Tab.0.center" timestamp="1599668410158">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="265" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1599668193833" />
-    <state width="1874" height="265" key="GridCell.Tab.0.right" timestamp="1599668193833">
+    <state width="1874" height="265" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1599668410158" />
+    <state width="1874" height="265" key="GridCell.Tab.0.left" timestamp="1599668410157">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="265" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1599668193833" />
+    <state width="1874" height="265" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1599668410157" />
+    <state width="1874" height="265" key="GridCell.Tab.0.right" timestamp="1599668410158">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="265" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1599668410158" />
     <state x="140" y="255" key="run.anything.popup" timestamp="1599661211154">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
@@ -294,10 +283,11 @@
     <SUITE FILE_PATH="coverage/tempter@test_f_to_c.rcov" NAME="test_f_to_c Coverage Results" MODIFIED="1599668193819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
     <SUITE FILE_PATH="coverage/tempter@test_pattern_input_error.rcov" NAME="test_pattern_input_error Coverage Results" MODIFIED="1599667059477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
     <SUITE FILE_PATH="coverage/tempter@test_pattern_input.rcov" NAME="test_pattern_input Coverage Results" MODIFIED="1599667094995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
-    <SUITE FILE_PATH="coverage/tempter@converter_test.rcov" NAME="converter_test Coverage Results" MODIFIED="1599668129147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
+    <SUITE FILE_PATH="coverage/tempter@converter_test.rcov" NAME="converter_test Coverage Results" MODIFIED="1599668366172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
     <SUITE FILE_PATH="coverage/tempter@test_pattern_type.rcov" NAME="test_pattern_type Coverage Results" MODIFIED="1599667360984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
     <SUITE FILE_PATH="coverage/tempter@pattern_test.rcov" NAME="pattern_test Coverage Results" MODIFIED="1599667514977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
     <SUITE FILE_PATH="coverage/tempter@test_pattern_to_type.rcov" NAME="test_pattern_to_type Coverage Results" MODIFIED="1599667402369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
+    <SUITE FILE_PATH="coverage/tempter@test_k_to_c.rcov" NAME="test_k_to_c Coverage Results" MODIFIED="1599668299816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
     <SUITE FILE_PATH="coverage/tempter@test_pattern_temperature_error.rcov" NAME="test_pattern_temperature_error Coverage Results" MODIFIED="1599667244242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
   </component>
 </project>

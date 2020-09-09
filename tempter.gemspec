@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'lib/tempter/version'
 
 Gem::Specification.new do |spec|
@@ -8,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Write a short summary, because RubyGems requires one.'
   spec.description   = 'Write a longer description or delete this line.'
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = 'https://github.com/HaliksaR/Tempter'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
 
