@@ -18,10 +18,10 @@ module Tempter
     attr_reader :temperature
 
 
-    # @param [Float] temperature
+    # @param [String?] temperature
     # @return [Tempter::Converter::ConverterBuilder]
     def attr_temperature(temperature)
-      @temperature = temperature
+      @temperature = temperature.to_f
       self
     end
 

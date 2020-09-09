@@ -23,8 +23,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
-
+```ruby
+    require 'tempter'
+    Tempter::App.new.show_help
+    Tempter::App.new.parse_input('+1234f => K').take_convert_temperature
+    # or
+    Tempter::ConverterBuilder.new
+                  .attr_temperature('+32')
+                  .attr_type('f')
+                  .attr_to_type('K')
+                  .discover_converter
+                  .convert
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

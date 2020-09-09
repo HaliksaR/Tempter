@@ -25,7 +25,7 @@ module Tempter
       raise 'Invalid Input' unless input.match?(PATTERN_REGEX_INPUT)
 
       @builder = ConverterBuilder.new
-                     .attr_temperature(input[PATTERN_REGEX_TEMPERATURE].to_f)
+                     .attr_temperature(input[PATTERN_REGEX_TEMPERATURE])
                      .attr_type(input.match(PATTERN_REGEX_TYPE).to_s)
                      .attr_to_type(input.match(PATTERN_REGEX_TO_TYPE).to_s)
                      .discover_converter
