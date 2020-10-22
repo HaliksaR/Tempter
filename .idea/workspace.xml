@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab8e9ef4-b8ee-4c45-a930-c7f6df9e5926" name="Default Changelist" comment="rubocop &amp; ci">
+    <list default="true" id="ab8e9ef4-b8ee-4c45-a930-c7f6df9e5926" name="Default Changelist" comment="remove travis &amp; fix ci">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rubocop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tempter.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/tempter.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +228,7 @@
       <workItem from="1602972642169" duration="327000" />
       <workItem from="1602973002228" duration="658000" />
       <workItem from="1602973781678" duration="172000" />
-      <workItem from="1603325181841" duration="1663000" />
+      <workItem from="1603325181841" duration="2140000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <created>1599668450202</created>
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603326433046</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="remove travis &amp; fix ci">
+      <created>1603327071278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603327071278</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +288,8 @@
     <MESSAGE value="Init homepage" />
     <MESSAGE value="Init bugfix" />
     <MESSAGE value="rubocop &amp; ci" />
-    <option name="LAST_COMMIT_MESSAGE" value="rubocop &amp; ci" />
+    <MESSAGE value="remove travis &amp; fix ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove travis &amp; fix ci" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="351" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599668415283">
@@ -317,11 +324,15 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="0" width="960" height="1080" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603326534762" />
-    <state x="556" y="264" key="Vcs.Push.Dialog.v2" timestamp="1603326537887">
+    <state x="556" y="264" key="Vcs.Push.Dialog.v2" timestamp="1603327072540">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="556" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603326537887" />
+    <state x="556" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603327072540" />
     <state x="556" y="291" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1599671384499" />
+    <state x="1145" y="124" width="590" height="831" key="find.popup" timestamp="1603327185748">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1145" y="124" width="590" height="831" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603327185748" />
     <state x="140" y="255" key="run.anything.popup" timestamp="1599670600029">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
