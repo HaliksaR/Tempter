@@ -11,11 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab8e9ef4-b8ee-4c45-a930-c7f6df9e5926" name="Default Changelist" comment="Init bugfix">
+      <change afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/tempter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tempter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tempter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tempter.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tempter/converter_builder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tempter/converter_builder.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tempter/converters/converter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tempter/converters/converter.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tempter/converters/impl/celsius_converter_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tempter/converters/impl/celsius_converter_impl.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tempter/converters/impl/fahrenheit_converter_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tempter/converters/impl/fahrenheit_converter_impl.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tempter/converters/impl/kelvin_converter_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tempter/converters/impl/kelvin_converter_impl.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tempter.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/tempter.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/converter_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/converter_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pattern_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/pattern_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +42,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1hHENRYh4dOkOGS3PZ4sRQUMPls" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/tempter/converters/impl" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.rbenv/versions/2.7.1/bin/ruby" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -200,15 +216,18 @@
     <recent_temporary>
       <list>
         <item itemvalue="Rake.default: tempter" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.converter_test" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_app_start" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_c_to_f" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.tempter_test" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.converter_test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ab8e9ef4-b8ee-4c45-a930-c7f6df9e5926" name="Default Changelist" comment="" />
@@ -217,6 +236,11 @@
       <option name="presentableId" value="Default" />
       <updated>1599659576585</updated>
       <workItem from="1599659577775" duration="12517000" />
+      <workItem from="1602971705287" duration="98000" />
+      <workItem from="1602972642169" duration="327000" />
+      <workItem from="1602973002228" duration="658000" />
+      <workItem from="1602973781678" duration="172000" />
+      <workItem from="1603325181841" duration="1158000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <created>1599668450202</created>
@@ -255,6 +279,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init Commit" />
@@ -267,22 +292,34 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="722" y="351" key="#com.intellij.fileTypes.FileTypeChooser/0.36.1920.1044@0.36.1920.1044" timestamp="1599668415283" />
-    <state width="1874" height="265" key="GridCell.Tab.0.bottom" timestamp="1599671082929">
-      <screen x="0" y="36" width="1920" height="1044" />
+    <state x="743" y="296" key="FileChooserDialogImpl" timestamp="1602973830840">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="743" y="296" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1602973830840" />
+    <state width="906" height="276" key="GridCell.Tab.0.bottom" timestamp="1603325540700">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="906" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603325540700" />
     <state width="1874" height="265" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1599671082929" />
-    <state width="1874" height="265" key="GridCell.Tab.0.center" timestamp="1599671082929">
-      <screen x="0" y="36" width="1920" height="1044" />
+    <state width="906" height="276" key="GridCell.Tab.0.center" timestamp="1603325540700">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="906" height="276" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603325540700" />
     <state width="1874" height="265" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1599671082929" />
-    <state width="1874" height="265" key="GridCell.Tab.0.left" timestamp="1599671082929">
-      <screen x="0" y="36" width="1920" height="1044" />
+    <state width="906" height="276" key="GridCell.Tab.0.left" timestamp="1603325540699">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="906" height="276" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603325540699" />
     <state width="1874" height="265" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1599671082929" />
-    <state width="1874" height="265" key="GridCell.Tab.0.right" timestamp="1599671082929">
-      <screen x="0" y="36" width="1920" height="1044" />
+    <state width="906" height="276" key="GridCell.Tab.0.right" timestamp="1603325540700">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="906" height="276" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603325540700" />
     <state width="1874" height="265" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1599671082929" />
+    <state x="0" y="0" width="960" height="1080" key="SettingsEditor" timestamp="1602973848339">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" width="960" height="1080" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1602973848339" />
     <state x="556" y="291" key="Vcs.Push.Dialog.v2" timestamp="1599671384499">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
@@ -291,14 +328,17 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="140" y="255" key="run.anything.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1599670600029" />
-    <state x="143" y="266" width="672" height="678" key="search.everywhere.popup" timestamp="1599665177192">
-      <screen x="0" y="36" width="1920" height="1044" />
+    <state x="143" y="238" width="672" height="702" key="search.everywhere.popup" timestamp="1602973064417">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="143" y="238" width="672" height="702" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1602973064417" />
     <state x="143" y="266" width="672" height="678" key="search.everywhere.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1599665177192" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tempter@tempter_test.rcov" NAME="tempter_test Coverage Results" MODIFIED="1599669452522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
     <SUITE FILE_PATH="coverage/tempter@test_pattern_temperature.rcov" NAME="test_pattern_temperature Coverage Results" MODIFIED="1599667295756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
+    <SUITE FILE_PATH="coverage/Tempter@converter_test.rcov" NAME="converter_test Coverage Results" MODIFIED="1603325456306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
+    <SUITE FILE_PATH="coverage/Tempter@default__tempter.rcov" NAME="default: tempter Coverage Results" MODIFIED="1603325521899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
     <SUITE FILE_PATH="coverage/tempter@test_pattern_input_error.rcov" NAME="test_pattern_input_error Coverage Results" MODIFIED="1599667059477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
     <SUITE FILE_PATH="coverage/tempter@converter_test.rcov" NAME="converter_test Coverage Results" MODIFIED="1599668366172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />
     <SUITE FILE_PATH="coverage/tempter@test_pattern_temperature_error.rcov" NAME="test_pattern_temperature_error Coverage Results" MODIFIED="1599667244242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tempter" />

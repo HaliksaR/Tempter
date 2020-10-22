@@ -5,7 +5,6 @@ require_relative '../converter'
 module Tempter
   # Celsius converter
   class CelsiusConverterImpl < Converter
-
     protected
 
     def to_celsius(value)
@@ -21,4 +20,3 @@ module Tempter
     end
   end
 end
-

@@ -5,7 +5,6 @@ require_relative '../converter'
 module Tempter
   # Fahrenheit converter
   class FahrenheitConverterImpl < Converter
-
     protected
 
     def to_celsius(value)

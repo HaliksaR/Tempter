@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
 module Tempter
-
   # Base api for converters
   class Converter
-
     TO_CELSIUS = 'to Celsius'
     TO_FAHRENHEIT = 'to Fahrenheit'
     TO_KELVIN = 'to Kelvin'

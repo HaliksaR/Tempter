@@ -17,7 +17,6 @@ module Tempter
     # @return [Float]
     attr_reader :temperature
 
-
     # @param [String?] temperature
     # @return [Tempter::Converter::ConverterBuilder]
     def attr_temperature(temperature)
